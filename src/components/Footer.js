@@ -8,7 +8,7 @@ export default function Footer() {
 
     return(
         <footer className="footer">
-            <p className="footer__copyright">&copy; {new Date().getFullYear()} Eric Canosa</p>
+            <p className="footer__copyright">&copy; {new Date().getFullYear()} Mind Bubble</p>
             <div className="footer__social-display">
                 <a href="mailto:canosaer@gmail.com" className="footer__social-button">
                     <button className="footer__social-icon"><FontAwesomeIcon icon={["fas", "envelope"]} /></button>
