@@ -1,0 +1,32 @@
+@use 'variables';
+@use 'mixins';
+
+.footer{
+	@include mixins.default-grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 3.5rem;
+	border-top: 1px solid lightgray;
+	margin-bottom: 4rem;
+	padding: 2rem 1.5rem;
+	font-size: 0.875rem;
+
+	@include mixins.wide-screen{
+		padding: 2rem 4%;
+	}
+
+	&__faq{
+		color: blue;
+		place-self: center left;
+	}
+
+	&__copyright{
+		color: #909097;
+		place-self: center center;
+	}
+
+	ul{
+		place-self: center right;
+	}
+
+	
+}
