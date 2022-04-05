@@ -62,7 +62,7 @@
   padding: 1rem;
   font-size: 1.2rem;
   height: 3rem;
-  width: 20rem;
+  width: 19.2rem;
   justify-self: center;
   z-index: 1;
   border-radius: 999rem;
@@ -262,13 +262,6 @@
   padding: 1rem;
   transition: height 400ms ease-in-out;
 }
-
-// @mixin generic-subheading{
-//   font-weight: bold;
-//   font-size: 2rem;
-//   line-height: 1.1;
-//   position: relative;
-// }
 
 @mixin generic-subheading{
   font-size: 1.55rem;
