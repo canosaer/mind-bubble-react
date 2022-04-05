@@ -47,7 +47,7 @@ export default function Programs() {
                                 )
                             })}
 
-                            <a className="program__button" href="">Learn more about {program.name} </a>
+                            <a className="program__button" href="#">Learn more about {program.name} </a>
                         </div>
                     </div>
                 )              

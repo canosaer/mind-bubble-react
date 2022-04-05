@@ -113,6 +113,10 @@
 		}
 	}
 
+	&__card-text{
+		display: inline;
+	}
+
 	&__button{
 		@include mixins.button;
 		grid-column: 1/-1;
@@ -121,4 +125,10 @@
 			margin-top: 3rem;
 		}
 	}
+}
+
+.program__card-description > .program__card-heading{
+	padding: 0;
+	display: inline;
+	margin-right: 0.35rem;
 }
