@@ -15,7 +15,7 @@
 	}
 
 	&__faq{
-		color: blue;
+		color: rgb(77, 109, 209);
 		place-self: center left;
 	}
 
@@ -24,9 +24,21 @@
 		place-self: center center;
 	}
 
-	ul{
-		place-self: center right;
-	}
+    &__social-display{
+        display: flex;
+        grid-column: 3/4;
+        align-items: center;
+        place-self: center right;
+        justify-content: space-between;
+        width: 8.95rem;
 
-	
+    }
+
+    &__social-icon{
+        background: none;
+        border: none;
+        color: rgb(77, 109, 209);
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
 }

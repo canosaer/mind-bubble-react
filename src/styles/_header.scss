@@ -118,7 +118,7 @@
 	&__list{
 		margin-top: 8.9rem;
 		@include mixins.default-grid;
-		grid-auto-rows: 3.9rem;
+		grid-auto-rows: 4.15rem;
 		justify-content: right;
 		font-size: 1.5rem;
 
@@ -156,10 +156,14 @@
 
 	&_open{
 		background: whitesmoke;
-		width: 21rem;
+		width: 19.5rem;
 		opacity: 1;
 		visibility: unset;
 		left: 0;
+
+		@include mixins.landscape{
+			width: 23rem;
+		}
 	}
 
 	&__item{
