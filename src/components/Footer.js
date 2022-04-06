@@ -21,7 +21,7 @@ export default function Footer() {
                     <button className="footer__social-icon"><FontAwesomeIcon icon={["fab", "twitter"]} /></button>
                 </a>
                 <a href="#" className="footer__social-button">
-                    <button className="footer__social-icon"><FontAwesomeIcon icon={["fab", "linkedin-in"]} /></button>
+                    <button className="footer__social-icon footer__social-icon_in"><FontAwesomeIcon icon={["fab", "linkedin-in"]} /></button>
                 </a>
                 
             </div>
